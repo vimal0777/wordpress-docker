@@ -26,7 +26,7 @@ services:
        WORDPRESS_DB_PASSWORD: wordpress
      container_name: wp_test
      volumes:
-     - uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+     - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     
 volumes:
     db_data:
