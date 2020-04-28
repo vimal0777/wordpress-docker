@@ -1,1 +1,1 @@
-wordpress docker file with uppload ini and theme volumes
+wordpress docker file with upload ini and theme volumes
